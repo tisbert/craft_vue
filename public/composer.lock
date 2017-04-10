@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f3a2c305912cbb87f3f54e6166b0922",
+    "content-hash": "83796fb9ba0de54b6b37144511ead4f1",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -474,6 +474,56 @@
                 "yii2"
             ],
             "time": "2017-04-07T23:06:36+00:00"
+        },
+        {
+            "name": "craftcms/element-api",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/element-api.git",
+                "reference": "19d6681f41db79bc7601d43b4d48d3b7ae8789e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/element-api/zipball/19d6681f41db79bc7601d43b4d48d3b7ae8789e0",
+                "reference": "19d6681f41db79bc7601d43b4d48d3b7ae8789e0",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "~3.0.0-beta.1",
+                "league/fractal": "^0.15.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Element API",
+                "handle": "elementApi",
+                "changelogUrl": "https://raw.githubusercontent.com/craftcms/element-api/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/craftcms/element-api/archive/master.zip"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\elementapi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Create a JSON API for your elements in Craft",
+            "keywords": [
+                "api",
+                "cms",
+                "craftcms",
+                "json",
+                "yii2"
+            ],
+            "time": "2017-03-24T17:44:53+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -956,6 +1006,69 @@
                 "storage"
             ],
             "time": "2017-02-09T11:33:58+00:00"
+        },
+        {
+            "name": "league/fractal",
+            "version": "0.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/fractal.git",
+                "reference": "0546bd5c2aba414ba50c6ac676f507d42c6150a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/0546bd5c2aba414ba50c6ac676f507d42c6150a5",
+                "reference": "0546bd5c2aba414ba50c6ac676f507d42c6150a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "illuminate/contracts": "~5.0",
+                "mockery/mockery": "~0.9",
+                "pagerfanta/pagerfanta": "~1.0.0",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5",
+                "zendframework/zend-paginator": "~2.3"
+            },
+            "suggest": {
+                "illuminate/pagination": "The Illuminate Pagination component.",
+                "pagerfanta/pagerfanta": "Pagerfanta Paginator",
+                "zendframework/zend-paginator": "Zend Framework Paginator"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Fractal\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phil Sturgeon",
+                    "email": "me@philsturgeon.uk",
+                    "homepage": "http://philsturgeon.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle the output of complex data structures ready for API output.",
+            "homepage": "http://fractal.thephpleague.com/",
+            "keywords": [
+                "api",
+                "json",
+                "league",
+                "rest"
+            ],
+            "time": "2016-12-28T01:30:30+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
